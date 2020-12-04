@@ -1,0 +1,42 @@
+#wrapper {
+    margin:auto;
+    width:1440px;
+    color: red;
+    font-weight: bolder;
+  }
+  input {
+    width:50px;
+  }
+
+  #linechart {
+    width:800px;
+  }
+  #Radarchart {
+    width:800px;
+  }
+  #Popularity {
+    width:800px;
+  }
+  body {
+      text-align:center;
+  }
+
+  html {
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+
+  h2, h3 {
+    text-align:center;
+  }
+  
+
+button{
+  font: x-large;
+  color: blue;
+  font-weight: 500;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}

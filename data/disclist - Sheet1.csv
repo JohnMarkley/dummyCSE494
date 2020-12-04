@@ -1,0 +1,326 @@
+Manufacturer,Name,Speed,Glide,Turn,Fade,Type
+Legacy,Rampage,14,5,-1,4,Distance
+Legacy,Cannon,14,5,-3,3,Distance
+Westside,King,14,5,-1,4,Distance
+Discmania,DD2 Frenzy,13,5,-2,2,Distance
+Discraft,Nuke OS,13,4,0,4,Distance
+Discraft,Nuke,13,4,-1,3,Distance
+Discraft,Nuke SS,13,4,-3,3,Distance
+Gateway,Samurai,13,6,-2,2,Distance
+Gateway,Slayer,13,5,-2,2,Distance
+Innova,Groove,13,6,-2,2,Distance
+Innova,Ape,13,5,0,4,Distance
+Innova,Boss,13,5,-1,3,Distance
+Innova,Dominator,13,5,-1,2,Distance
+Innova,Katana,13,5,-3,3,Distance
+Innova,Vulcan,13,5,-4,2,Distance
+Latitude 64°,Bolt,13,6,-2,3,Distance
+Latitude 64°,Halo,13,5,0,3,Distance
+Latitude 64°,Havoc,13,5,-1,3,Distance
+Latitude 64°,Stiletto,13,2,1,6,Distance
+Millenium,Quasar,13,5,-1,4,Distance
+Prodigy,D1,13,6,-0.5,3,Distance
+Prodigy,D2,13,6,-1,3,Distance
+Prodigy,D4,13,6,-2.5,2,Distance
+Prodigy,D3,13,5,-2,2,Distance
+Prodiscus,Legenda,13,5,-1,3,Distance
+Vibram,Lace,13,6,-1,3,Distance
+Westside,Giant,13,5,1,4,Distance
+DGA,Hurricane,12,5,-1,2,Distance
+Discmania,PD2 Chaos,12,4,0,4,Distance
+Discraft,Force,12,5,0,4,Distance
+Dynamic Discs,Trespass,12,5,-0.5,3,Distance
+Innova,Tern,12,6,-2,2,Distance
+Innova,Wahoo,12,6,-2,2,Distance
+Innova,Xcaliber,12,5,0,4,Distance
+Innova,Destroyer,12,5,-1,3,Distance
+Innova,TeeDevil,12,5,-1,2,Distance
+Latitude 64°,Villain,12,4,0,4,Distance
+Latitude 64°,Blitz,12,3,0,4,Distance
+Millenium,Scorpius,12,5,-1,3,Distance
+Prodiscus,Slaidi,12,5,0,3,Distance
+Quest,Double D,12,4,0,5,Distance
+Westside,Sword,12,5,0,2,Distance
+Discmania,DD Hysteria,11,5,0,2,Distance
+Discraft,Crush,11,5,0,4,Distance
+Discraft,Pulse,11,5,0,3,Distance
+Dynamic Discs,Renegade,11,5,-1.5,2.5,Distance
+Gateway,Diablo DT,11,6,-1,3.7,Distance
+Innova,Mamba,11,6,-5,1,Distance
+Innova,Krait,11,5,-1,2,Distance
+Innova,Wraith,11,5,-1,3,Distance
+Innova,Archon,11,5,-2,2,Distance
+Innova,TeeRex,11,4,0,4,Distance
+Innova,Max,11,3,0,5,Distance
+Latitude 64°,Flow,11,6,-1,2,Distance
+Latitude 64°,Riot,11,4,-1,2,Distance
+Millenium,Astra,11,5,-2,2,Distance
+Quest,Classic Inferno,11,6,-3,1,Distance
+Quest,Raging Inferno,11,5,0,3,Distance
+Quest,Raging Inferno DT,11,5,-1,3,Distance
+Skyquest,Medusa,11,5,-2,2,Distance
+Westside,Boatman,11,5,0,2,Distance
+DGA,Rogue,10,5,-1,3,Distance
+DGA,Tsunami,10,4,0,4,Distance
+Discmania,CD Craze,10,5,-1,2,Distance
+Discmania,TD Rush,10,5,-2,1,Distance
+Discmania,TD2 Fever,10,5,-4,1,Distance
+Discmania,PD Freak,10,4,0,3,Distance
+Discraft,Avenger,10,5,0,3,Distance
+Discraft,Surge,10,5,-1,3,Distance
+Discraft,Surge SS,10,5,-1,2,Distance
+Discraft,Flash,10,5,-2,3,Distance
+Discraft,Avenger SS,10,5,-3,1,Distance
+Gateway,Spirit,10,6,1,4,Distance
+Gateway,Rage,10,6,-1,3,Distance
+Gateway,Savage,10,5,0,3,Distance
+Gateway,Blurr,10,5,-1,2,Distance
+Gateway,Illusion,10,5,-1,3,Distance
+Innova,SL,10,5,-1,2,Distance
+Innova,Beast,10,5,-2,2,Distance
+Innova,Monarch,10,5,-4,1,Distance
+Innova,Starfire,10,4,0,3,Distance
+Innova,Orc,10,4,-1,3,Distance
+Innova,Monster,10,3,0,5,Distance
+Lightning,#2 Helix,10,4,0,3,Distance
+Quest,Inferno,10,6,-2,1,Distance
+Quest,Scorcher,10,4,1,5,Distance
+Skyquest,Lucky 13,10,5,-3,2,Distance
+Westside,Northman,10,5,-1,2,Distance
+ABC Discs,Secret Weapon,9,4,-3,2,Distance
+DGA,Undertow,9,5,-1.8,2,Distance
+DGA,Riptide,9,4,0,3,Distance
+Discraft,Flick,9,4,1,4,Distance
+Gateway,Assassin,9,6,-2,1,Distance
+Innova,Sidewinder,9,5,-3,1,Distance
+Innova,Roadrunner,9,5,-4,1,Distance
+Innova,Viking,9,4,-1,2,Distance
+Innova,Valkyrie,9,4,-2,2,Distance
+Innova,Firebird,9,3,0,4,Distance
+Innova,FL,9,3,0,2,Distance
+Lightning,#3 Flyer,9,4,0,2,Distance
+Millenium,Orion LF,9,5,-1,2,Distance
+Millenium,Orion LS,9,4,-1,1,Distance
+Quest,Scream Max,9,6,1,3,Distance
+Quest,Scream,9,6,-1,1,Distance
+Quest,Odyssey,9,5,-2,2,Distance
+Quest,Scream DT,9,5,-3,1,Distance
+Discraft,Predator,9,4,0,4,Fairway
+Dynamic Discs,Escape,9,5,-0.5,2,Fairway
+Gateway,Apache,9,6,-1,2,Fairway
+Gateway,Speed Demon,9,4,0,4,Fairway
+Latitude 64°,Saint,9,7,-1,2,Fairway
+Latitude 64°,Fury,9,6,-2,2,Fairway
+Latitude 64°,Striker,9,5,-1,2,Fairway
+Quest,100 M Lazer,9,4,-2,2,Fairway
+Lightning,#2 Flyer,8.5,5,-2,3,Distance
+Discraft,Stalker,8,5,-1,1,Distance
+Innova,Archangel,8,6,-4,1,Distance
+Innova,Dragon,8,5,-2,2,Distance
+Lightning,#1 Flyer,8,5,-1,2,Distance
+Lightning,#1 Helix,8,5,-1,3,Distance
+Lightning,#2 Driver,8,4,-1,3,Distance
+Discraft,Tracker,8,5,-1,3,Fairway
+Discraft,Xpress,8,5,-3,1,Fairway
+Discraft,Reaper,8,4,0,4,Fairway
+Discraft,Storm,8,4,0,3,Fairway
+Gateway,Hybrid,8,5,-1,3,Fairway
+Latitude 64°,Diamond Light,8,6,-3,1,Fairway
+Latitude 64°,Vision,8,6,-3,2,Fairway
+Millenium,JLS,8,5,-1,1,Fairway
+Millenium,Polaris LS,8,4,-1,1,Fairway
+MVP,Shock,8,5,0,3,Fairway
+MVP,Amp,8,5,-2,1,Fairway
+Prodiscus,Respecti,8,4,0,2,Fairway
+Vibram,Ascent,8,5,-0.2,2.5,Fairway
+Westside,Stag,8,6,0,3,Fairway
+Gateway,Scout,8,6,0,1,Midrange
+DGA,Flathead Cyclone,7,4,-1.2,3,Fairway
+Discmania,FD Jackal,7,6,-1,1,Fairway
+Discraft,Zombee,7,6,-1,2,Fairway
+Discraft,Glide,7,5,-3,1,Fairway
+Discraft,Cyclone,7,4,-1,3,Fairway
+Discraft,XL,7,4,-1,3,Fairway
+Discraft,Eclipse,7,4,-2,2,Fairway
+Discraft,XS,7,4,-2,3,Fairway
+Gateway,Blaze,7,5,-1,3,Fairway
+Gateway,Sabre,7,5,-2,2,Fairway
+Innova,TeeBird,7,5,0,2,Fairway
+Innova,TL,7,5,0,1,Fairway
+Innova,Eagle,7,4,-1,3,Fairway
+Innova,Banshee,7,3,0,3,Fairway
+Latitude 64°,River,7,7,-2,1,Fairway
+Latitude 64°,XXX,7,2,0,5,Fairway
+Legacy,Rival,7,5,0,2,Fairway
+Legacy,Patriot,7,5,-2,1,Fairway
+Lightning,#1 Driver,7,5,-2,2,Fairway
+Lightning,#1 Slice,7,5,-3,1,Fairway
+Lightning,No. 1 Hyzer,7,4,0,4,Fairway
+Lightning,#1 Roller,7,4,-1.5,1,Fairway
+MVP,Volt,7,5,-0.5,2,Fairway
+Prodigy,F3,7,5,-2,2,Fairway
+Prodigy,F7,7,5,-3,1,Fairway
+Prodigy,F1,7,4,0,4,Fairway
+Prodigy,F2,7,4,-1,3,Fairway
+Quest,T-Bone,7,4,-1,1,Fairway
+Vibram,Trak,7,5,-1,1.2,Fairway
+Westside,Underworld,7,6,-3,1,Fairway
+Innova,Ace,6,5,-1,1,Fairway
+Innova,Leopard,6,5,-2,1,Fairway
+Innova,Pegasus,6,4,1,3,Fairway
+Innova,Viper,6,4,1,5,Fairway
+Innova,Gazelle,6,4,0,2,Fairway
+Innova,Cheetah,6,4,-2,2,Fairway
+Innova,Whippet,6,3,0.2,5,Fairway
+Lightning,#3 Driver,6,5,-1,3,Fairway
+Discraft,Impact,6,5,-2,2,Midrange
+Gateway,Karma,6,5,-1,2,Midrange
+Latitude 64°,Medius,6,6,0,2,Midrange
+Quest,Backbone,6,3,0,2,Midrange
+Quest,Wildfire,6,3,-3,2,Midrange
+Westside,Warship,6,5,0,1,Midrange
+Latitude 64°,Trident,5,2,0,5,Fairway
+Crosslap,Lucky,5,5,-2,1,Midrange
+Discmania,GM Gremlin,5,4,0,2,Midrange
+Discraft,Hornet,5,5,0,4,Midrange
+Discraft,Nebula,5,5,-0.5,2.5,Midrange
+Discraft,Wasp,5,4,0,3,Midrange
+Discraft,Buzzz,5,4,-1,1,Midrange
+Discraft,Buzzz SS,5,4,-2,1,Midrange
+Discraft,Stratus,5,4,-3,1,Midrange
+Discraft,Drone,5,3,0,4,Midrange
+Dynamic Discs,Fugitive,5,5,-0.5,1.5,Midrange
+Dynamic Discs,Truth,5,5,-0.5,1,Midrange
+Dynamic Discs,Verdict,5,4,0,3.5,Midrange
+Gateway,Element,5,5,-2,1,Midrange
+Gateway,Mystic,5,5,-2,2,Midrange
+Gateway,Element-X,5,4,-2,3,Midrange
+Innova,Kite,5,6,-3,1,Midrange
+Innova,Mako3,5,5,0,0,Midrange
+Innova,Skeeter,5,5,-1,1,Midrange
+Innova,Atlas,5,4,0,1,Midrange
+Innova,Roc3,5,4,0,3,Midrange
+Innova,Shark3,5,4,0,2,Midrange
+Innova,Panther,5,4,-2,1,Midrange
+Innova,Cro,5,3,0,2,Midrange
+Innova,Spider,5,3,0,1,Midrange
+Innova,Gator,5,2,0,3,Midrange
+Latitude 64°,Fuse,5,6,-2,1,Midrange
+Latitude 64°,Mace,5,5,0,1.5,Midrange
+Latitude 64°,Core,5,5,-1,1,Midrange
+Lightning,#2 Hyzer,5,4,1,4,Midrange
+Millenium,Sentinel MF,5,4,0,4,Midrange
+MVP,Axis,5,5,-1,1,Midrange
+MVP,Tangent,5,5,-2,1,Midrange
+MVP,Vector,5,4,0,3,Midrange
+Prodigy,M4,5,5,-1,1,Midrange
+Prodigy,M1,5,4,0,4,Midrange
+Prodigy,M2,5,4,0,2,Midrange
+Prodigy,M3,5,4,-1,2,Midrange
+Prodiscus,Midari,5,4,-1,2,Midrange
+Quest,Rock-It,5,4,-2,1,Midrange
+Vibram,Obex,5,4.5,0,3,Midrange
+Vibram,Ibex,5,4,-1.5,1.5,Midrange
+Westside,Tursas,5,5,-3,1,Midrange
+ABC Discs,Flying Squirrel,4,5,-4,1,Midrange
+ABC Discs,Mission,4,4,-1,2,Midrange
+Black Jax Sports,MidKNIGHT,4,4,0,3,Midrange
+DGA,Squall,4,4,-1.1,2,Midrange
+DGA,Aftershock,4,3,-1,1,Midrange
+DGA,Shockwave,4,2,0,2.8,Midrange
+Discmania,MD2 Fiend,4,5,0,2,Midrange
+Discmania,MD1,4,4,0,2,Midrange
+Discraft,Meteor,4,5,-3,1,Midrange
+Discraft,Breeze,4,4,-2,1,Midrange
+Discraft,Comet,4,4,-2,1,Midrange
+Discraft,Hawk,4,3,-2,2,Midrange
+Dynamic Discs,Suspect,4,3,0,3,Midrange
+Gateway,Demon,4,4,0,3,Midrange
+Gateway,Warrior,4,4,-1,3,Midrange
+Innova,Jaguar,4,7,-4,1.5,Midrange
+Innova,Coyote,4,5,0,1,Midrange
+Innova,King Cobra,4,5,0,2,Midrange
+Innova,Lycan,4,5,0,1,Midrange
+Innova,Mako,4,5,0,0,Midrange
+Innova,Roc plus,4,5,0,2,Midrange
+Innova,Super Stingray,4,5,-1,1,Midrange
+Innova,Cobra,4,5,-2,2,Midrange
+Innova,Stingray,4,5,-3,1,Midrange
+Innova,Roc,4,4,0,3,Midrange
+Innova,Shark,4,4,0,2,Midrange
+Innova,Super Roc,4,4,0,3,Midrange
+Innova,Wolf,4,3,-4,1,Midrange
+Latitude 64°,Pearl,4,6,-4,1,Midrange
+Latitude 64°,Pain,4,4,0,2,Midrange
+Legacy,Ghost,4,5,0,3,Midrange
+Millenium,Aurora MF,4,5,0,2,Midrange
+Millenium,Aurora MS,4,5,0,0,Midrange
+Discraft,Ringer,4,4,0,2,Putt & Approach
+Discraft,Zone,4,3,0,3,Putt & Approach
+Latitude 64°,Spike,4,2,-1,1,Putt & Approach
+Prodiscus,Jokeri,4,3,0,2,Putt & Approach
+Innova,Wedge,3.5,3,-3,1,Putt & Approach
+Crosslap,Credo,3,2,0,3,Putt & Approach
+Gateway,Voodoo,3,3,0,1,Putt & Approach
+Innova,Aero,3,6,0,0,Putt & Approach
+Innova,Condor,3,5,0,2,Putt & Approach
+Innova,Dart,3,4,0,0,Putt & Approach
+Innova,Goblin,3,4,0,1,Putt & Approach
+Innova,Zephyr,3,4,0,0,Putt & Approach
+Innova,XD,3,4,-1,1,Putt & Approach
+Innova,XD Plus,3,4,-1,1,Putt & Approach
+Innova,Bulldog,3,3,0,2,Putt & Approach
+Innova,Classic Roc,3,3,0,2,Putt & Approach
+Innova,Hydra,3,3,0,2,Putt & Approach
+Innova,Pig,3,1,0,3,Putt & Approach
+Latitude 64°,Ruby,3,5,-3,1,Putt & Approach
+Latitude 64°,Pure,3,3,-1,1,Putt & Approach
+Lightning,Rubber Putter,3,4,-1,1,Putt & Approach
+MVP,Anode,3,4,0,0,Putt & Approach
+MVP,Ion,3,4,0,1,Putt & Approach
+Quest,Crossfire,3,3,-2,2,Putt & Approach
+Westside,Swan 2,3,3,-1,0,Putt & Approach
+Vibram,Summit,2.5,3,-1.3,0.2,Putt & Approach
+ABC Discs,Money,2,3,0,2,Putt & Approach
+DGA,Titanic,2,3,-0.5,2.5,Putt & Approach
+DGA,BlowFly,2,2,-1,2,Putt & Approach
+DGA,Reef,2,2,-1,1,Putt & Approach
+DGA,BlowFly II,2,2,-2,1,Putt & Approach
+Discmania,P1 Maniac,2,3,0,0,Putt & Approach
+Discmania,P2 Psycho,2,3,0,1,Putt & Approach
+Discraft,Banger GT,2,3,0,1,Putt & Approach
+Discraft,Challenger,2,3,0,2,Putt & Approach
+Discraft,Magnet,2,3,-0.5,2,Putt & Approach
+Discraft,Rattler,2,2,0,1,Putt & Approach
+Discraft,APX,2,2,-1,1,Putt & Approach
+Discraft,Focus,2,2,-1,2,Putt & Approach
+Discraft,Puttr,2,2,-1,1,Putt & Approach
+Dynamic Discs,Judge,2,4,0,0.5,Putt & Approach
+Gateway,Warlock,2,3,0,1,Putt & Approach
+Gateway,Magic,2,3,-1,0,Putt & Approach
+Gateway,Wizard,2,2,0,2,Putt & Approach
+Innova,Aviar,2,3,0,1,Putt & Approach
+Innova,Aviar Driver,2,3,0,2,Putt & Approach
+Innova,Classic Aviar,2,3,0,0,Putt & Approach
+Innova,JK Aviar-x,2,3,0,2,Putt & Approach
+Innova,KC Pro Aviar,2,3,0,2,Putt & Approach
+Innova,Yeti Pro Aviar,2,3,0,1,Putt & Approach
+Innova,Rhyno,2,1,0,3,Putt & Approach
+Latitude 64°,Mercy,2,4,0,1,Putt & Approach
+Latitude 64°,Sinus,2,1,0,3,Putt & Approach
+Legacy,Clozer,2,3,0,2,Putt & Approach
+Legacy,Clutch,2,3,0,1,Putt & Approach
+Lightning,#2 Upshot,2,4,-1,1,Putt & Approach
+Lightning,Upshot,2,4,-2,0,Putt & Approach
+Millenium,Omega,2,3,0,0,Putt & Approach
+Prodigy,PA4,2,3,-1,1,Putt & Approach
+Prodigy,PA1,2,2,0,2,Putt & Approach
+Prodigy,PA2,2,2,0,1,Putt & Approach
+Vibram,Ridge,2,4,0,1.3,Putt & Approach
+Vibram,Sole,2,3,0,2,Putt & Approach
+Vibram,VP,2,2.5,0,2.5,Putt & Approach
+Innova,Polecat,1,3,0,0,Putt & Approach
+Innova,Birdie,1,2,0,0,Putt & Approach
+Innova,Sonic,1,2,-4,0,Putt & Approach
+Quest,10 M Brick,1,1,1,1,Putt & Approach
+Quest,10 M Crossfire,1,1,0,1,Putt & Approach

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+    <title>David-Tyler-John Project</title>
+    <link rel='stylesheet' href='css/styles.css'>
+    <img src="images/disc golf.jpg">
+  </head>
+  <body>
+    <div>
+      <p> This is my scatterplot </p>
+      &nbsp;Disc Type:&nbsp;
+      <select id= 'DiscType'>
+        <option value='Driver'>Driver</option>
+        <option value='Midrange'>Midrange</option>
+        <option value='Putter'>Putter</option>
+      </select>
+      &nbsp;X-Attribute:&nbsp;
+    <select id= 'X-Attribute'>
+        <option value='Speed'>Speed</option>
+        <option value='Glide'>Glide</option>
+        <option value='Turn'>Turn</option>
+        <option value='Fade'>Fade</option>
+    </select>
+
+    &nbsp;Y-Attribute:&nbsp;
+    <select id= 'Y-Attribute'>
+        <option value='Speed'>Speed</option>
+        <option value='Glide'>Glide</option>
+        <option value='Turn'>Turn</option>
+        <option value='Fade'>Fade</option>
+    </select>
+
+      <div id='scatterplotDIV' width="600" height="500"> </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+  var DriverData = [];
+  var PutterData = [];
+  var MidrangeData = [];
+  var testData = [];
+
+
+  const xAxisLabel = document.getElementById('X-Attribute').value;
+  const yAxisLabel = document.getElementById('Y-Attribute').value;
+
+  const margin = { top: 30, right: 20, bottom: 180, left: 40 },
+    width = 860 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
+
+    var xScale = d3.scaleLinear()
+    .domain([-10, 10])
+    .range([0, width]);
+
+
+    var yScale = d3.scaleLinear()
+      .domain([10, -10])
+      .range([0, height]);
+
+
+
+
+
+  var plotSVG = d3.select("#scatterplotDIV")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+    d3.csv('data/DiscList.csv').then(data => {
+      data.forEach(d => {
+        var Name = d.Name;
+        var Speed = +d.Speed;
+        var Glide = +d.Glide;
+        var Turn = +d.Turn;
+        var Fade = +d.Fade;
+        var Type = d.Type;
+
+        if(d.Type == "Driver"){
+          DriverData.push({
+            name: Name,
+            speed: Speed,
+            glide: Glide,
+            fade: Fade,
+            turn: Turn,
+            type: Type
+          });
+        }
+
+        if(d.Type == "Midrange"){
+          MidrangeData.push({
+            name: Name,
+            speed: Speed,
+            glide: Glide,
+            fade: Fade,
+            turn: Turn,
+            type: Type
+          });
+        }
+
+        if(d.Type == "Putter"){
+          PutterData.push({
+            name: Name,
+            speed: Speed,
+            glide: Glide,
+            fade: Fade,
+            turn: Turn,
+            type: Type
+          });
+        }
+      });
+
+      console.log(PutterData);
+      callScatterDriver(1);
+
+    });
+
+function clearCircles(){
+  plotSVG.selectAll("circle").remove();
+
+}
+
+function callScatterDriver(number){
+
+    usedData = {};
+    xvariabletouse = {};
+    yvariabletouse = {};
+
+    if(number == 1){
+      usedData = DriverData;
+    }
+    if(number == 2){
+      usedData = PutterData;
+    }
+    if(number == 3){
+      usedData = MidrangeData
+    }
+    var xvar = document.getElementById('X-Attribute').value;
+    var yvar =  document.getElementById('Y-Attribute').value;
+    var dataset =  document.getElementById('DiscType').value;
+
+
+
+
+
+    plotSVG.selectAll("circles")
+      .data(usedData)
+      .enter()
+      .append("circle")
+      .attr("cx", function(d) {
+        console.log(`${d.name}`);
+        if(xvar == "Speed"){
+          xScale.domain(d3.extent(usedData, function(d) { return +d.speed; })).nice();
+          return xScale(d.speed);}
+        if(xvar == "Glide"){
+          xScale.domain(d3.extent(usedData, function(d) { return +d.glide; })).nice();
+          return xScale(d.glide);}
+        if(xvar == "Fade"){
+          xScale.domain(d3.extent(usedData, function(d) { return +d.fade; })).nice();
+          return xScale(d.fade);}
+        if(xvar == "Turn"){
+          xScale.domain(d3.extent(usedData, function(d) { return +d.turn; })).nice();
+          return xScale(d.turn);}
+
+      })
+      .attr("cy", function(d) {
+        if(yvar == "Speed"){
+          yScale.domain(d3.extent(usedData, function(d) { return +d.speed; })).nice();
+          return xScale(d.speed);}
+        if(yvar == "Glide"){
+          yScale.domain(d3.extent(usedData, function(d) { return +d.glide; })).nice();
+          return xScale(d.glide);}
+        if(yvar == "Fade"){
+          yScale.domain(d3.extent(usedData, function(d) { return +d.fade; })).nice();
+          return xScale(d.fade);}
+        if(yvar == "Turn"){
+        yScale.domain(d3.extent(usedData, function(d) { return +d.turn; })).nice();
+        return xScale(d.turn);}
+      })
+      .attr("r", 4)
+      .attr("opacity", .2)
+      .attr("fill", "green");
+
+  plotSVG.append("text")
+   .attr("transform","translate(" + width / 2 + " ," + (height + margin.top + 30) + ")")
+   .style("text-anchor", "middle")
+   .text(xvar);
+
+
+  
+
+    plotSVG.append("g")
+      .attr("transform", "translate(0," + height  + ")")
+      .call(d3.axisBottom(xScale));
+
+    plotSVG.append("g")
+      .call(d3.axisLeft(yScale));
+
+
+}
+  document.getElementById('DiscType').addEventListener('change',
+        function(event)
+          {
+            updateChart();
+          })
+  document.getElementById('X-Attribute').addEventListener('change',
+        function(event)
+          {
+            updateChart();
+          })
+  document.getElementById('Y-Attribute').addEventListener('change',
+        function(event)
+          {
+            updateChart();
+          })
+
+
+
+  function updateChart(){
+    var selection = document.getElementById('DiscType').value;
+    if(selection == "Driver"){
+      callScatterDriver(1);
+    }
+    if(selection == "Putter"){
+      callScatterDriver(2);
+    }
+    if(selection == "Midrange"){
+      callScatterDriver(3);
+    }
+
+    console.log(1);
+  }
+
+
+
+  console.log(2);
+  console.log(3);
+
+
+
+    </script>
+  </body>
+</html>
